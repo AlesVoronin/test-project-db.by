@@ -1,0 +1,18 @@
+@media all and (max-width: 1200px){
+  .header-container{
+    min-width: 970px !important;
+  }
+  .main-slider{
+    min-width: 992px !important;
+  }
+  .slider-content{
+    margin-left: 7%;
+  }
+  .footer-container{
+    height: 121px * 2;
+  }
+  .footer{
+    flex-wrap: wrap;
+    max-width: 800px !important;
+  }
+}
