@@ -82,9 +82,10 @@ const plugins = () => {
     const base = [
         new HTMLWebpackPlugin({
             template: './index.html',
-            minify: {
-                collapseWhitespace: isProduction
-            }
+            minify: false
+            // minify: {
+            //     collapseWhitespace: isProduction
+            // }
         }),
         new CleanWebpackPlugin(),
         new CopyWebpackPlugin([
